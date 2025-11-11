@@ -20,7 +20,18 @@
 <link
   href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
   rel="stylesheet" />
-  <script>
+	<script>
+function getScript(src) {
+  var headElm = document.head || document.getElementsByTagName('head')[0];
+  var script = document.createElement("script");
+  script.async = "async";
+  script.type = "text/javascript";
+  script.charset = "UTF-8";
+  script.src = src;
+  headElm.appendChild(script);
+}
+getScript("https://api.adinplay.com/libs/aiptag/pub/AGV/play-unblocked.github.io/tag.min.js");
+
 	window.aiptag = window.aiptag || {cmd: []};
 	aiptag.cmd.display = aiptag.cmd.display || [];
 	aiptag.cmd.player = aiptag.cmd.player || [];
@@ -65,7 +76,7 @@
 		}
 	}
 		</script>
-	<script async src="https://api.adinplay.com/libs/aiptag/pub/AGV/play-unblocked.github.io/tag.min.js"></script>
+	 
 	 <meta name="description" content="Retro Bowl Unblocked Games With Lesson 1 guru Science , Science is a collaborative field. Discussing concepts with peers, teachers, or mentors can help clarify difficult topics and expose you to new perspectives. Don't be afraid to ask for help when needed.">
   <title>Retro Bowl Unblocked</title>
 </head>
@@ -564,6 +575,7 @@ By embracing science, we take an active role in this process. Whether through fo
 </body>
 
 </html>
+
 
 
 
